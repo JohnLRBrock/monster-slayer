@@ -4,10 +4,10 @@ new Vue {
   },
   methods: {
     initGame: function initGame () {
-      this.monster-health = 100;
-      this.player-health = 100;
+      this.monsterHealth = 100;
+      this.playerHealth = 100;
       log = [];
-    }
+    },
   },
   beforeMount() {
     initGame();
