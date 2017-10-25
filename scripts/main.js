@@ -1,8 +1,15 @@
 new Vue {
   el: '#app',
   data: {
-    monster-health: 100,
-    player-health: 100,
-    log: [],
   },
+  methods: {
+    initGame: function initGame () {
+      this.monster-health = 100;
+      this.player-health = 100;
+      log = [];
+    }
+  },
+  beforeMount() {
+    initGame();
+  }
 }
