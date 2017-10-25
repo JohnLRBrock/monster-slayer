@@ -6,7 +6,7 @@ new Vue({
     initGame: function initGame () {
       this.monsterHealth = 100;
       this.playerHealth = 100;
-      log = [];
+      this.log = [];
     },
   },
   beforeMount() {
