@@ -1,4 +1,4 @@
-new Vue {
+new Vue({
   el: '#app',
   data: {
   },
@@ -10,6 +10,6 @@ new Vue {
     },
   },
   beforeMount() {
-    initGame();
-  }
-}
+    this.initGame();
+  },
+});
