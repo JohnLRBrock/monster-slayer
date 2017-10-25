@@ -41,9 +41,9 @@
   </section>
   <section class="row log">
     <div class="small-12 columns">
-      <ul>
+      <ul v-for="messages in log">
         <li>
-
+          {{ message }}
         </li>
       </ul>
     </div>
